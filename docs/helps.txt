@@ -1,0 +1,53 @@
+POST Itens to Basket- JSON
+{
+  "userName": "caio",
+  "items": [
+    {
+      "productId": "60210c2a1556459e153f0554",
+      "productName": "IPhone X",
+      "quantity": 1,
+      "color": "Red",
+      "price": 500
+    }
+  ]
+}
+
+{
+  "userName": "caio",
+  "items": [
+    {
+      "productId": "60210c2a1556459e153f0554",
+      "productName": "IPhone X",
+      "quantity": 1,
+      "color": "Red",
+      "price": 500
+    },
+	{
+      "productId": "60210c2a1556459e153f0555",
+      "productName": "Samsung Galaxy s24",
+      "quantity": 2,
+      "color": "Blue",
+      "price": 1000
+    }
+  ]
+}
+
+
+
+Checkout JSON
+{
+  "userName": "caio",
+  "totalPrice": 2500,
+  "firstName": "caio",
+  "lastName": "mello",
+  "emailAddress": "string",
+  "addressLine": "string",
+  "country": "string",
+  "state": "string",
+  "zipCode": "string",
+  "cardName": "string",
+  "cardNumber": "string",
+  "expiration": "string",
+  "cvv": "string",
+  "paymentMethod": 1
+}
